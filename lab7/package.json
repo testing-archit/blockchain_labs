@@ -1,0 +1,24 @@
+{
+  "name": "lab7-merkle-proofs",
+  "version": "1.0.0",
+  "description": "Lab 7: Merkle Tree Proofs Implementation and Testing",
+  "main": "deploy_and_test.js",
+  "scripts": {
+    "test": "node deploy_and_test.js",
+    "python-test": "python3 test_merkle_proofs.py",
+    "python-generator": "python3 merkle_proof_generator.py",
+    "install-deps": "npm install ethers"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2"
+  },
+  "keywords": [
+    "merkle-tree",
+    "blockchain",
+    "solidity",
+    "proofs",
+    "cryptography"
+  ],
+  "author": "Blockchain Lab 7",
+  "license": "MIT"
+}
