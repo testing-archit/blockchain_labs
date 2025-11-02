@@ -1,0 +1,33 @@
+{
+  "rpcUrl": "http://127.0.0.1:8545",
+  "address": "0xdB7d6AB1f17c6b31909aE466702703dAEf9269Cf",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "retrieve",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "num",
+          "type": "uint256"
+        }
+      ],
+      "name": "store",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "txHash": "see geth logs"
+}
