@@ -1,0 +1,17 @@
+{
+  "name": "lab9",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "## Objective Develop a local Ethereum development environment using Geth and Remix IDE, enabling local testing and deployment of smart contracts.",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.8.30",
+    "web3": "^4.16.0"
+  }
+}
